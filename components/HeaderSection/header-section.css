@@ -61,12 +61,13 @@
 }
 
 .header-section-card-image {
-  width: 40px;
-  height: 53px;
+  width: 50px;
+  height: 75px;
   display: grid;
   place-items: center;
   border-radius: 5px;
   position: relative;
+  object-fit: cover;
 }
 
 .header-section-card-name {
@@ -93,7 +94,9 @@
 }
 
 .header-image-title img {
+  height: 150px;
   width: 250px;
+  object-fit: cover;
 }
 
 .header-image-avalaibility {

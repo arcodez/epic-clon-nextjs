@@ -13,6 +13,12 @@ import "@/components/Layout/Navbar2/navbar2.css";
 //import the css of HeaderSection
 import "@/components/HeaderSection/header-section.css";
 
+// Cards Css
+import "@/components/CardV1/cardv1.css";
+import "@/components/ListOfCards/listofcards.css";
+
+import "@/components/CardV2/cardv2.css";
+
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
