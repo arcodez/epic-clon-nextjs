@@ -1,0 +1,47 @@
+.games-free-cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  /* background-color: red; */
+}
+
+.games-free-title-container {
+  /* background-color: red; */
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.games-free-title-section,
+.games-free-more-button {
+  margin: 0 5.4%;
+}
+
+.games-free-title-section {
+  display: flex;
+}
+
+.games-free-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.games-free-gift-icon {
+  margin-right: 10px;
+}
+
+.games-free-more-button {
+  width: 98px;
+  height: 44px;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

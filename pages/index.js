@@ -6,6 +6,7 @@ import Layout from "@/components/Layout";
 import HeaderSection from "@/components/HeaderSection";
 import GamesOnSaleSection from "@/components/GamesOnSaleSection";
 import ListOfCardsV2 from "@/components/ListOfCardsV2";
+import GamesFreeSection from "@/components/GamesFreeSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
         <HeaderSection />
         <GamesOnSaleSection />
         <ListOfCardsV2 />
+        <GamesFreeSection />
       </Layout>
     </>
   );
