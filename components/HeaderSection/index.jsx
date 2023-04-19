@@ -104,15 +104,6 @@ const HeaderSection = () => {
   );
 
   const handleChangeInfoHeader = (card) => {
-    /*   const {
-      headerAvalaible,
-      headerCardDesc,
-      headerCardImg,
-      headerCardTitleImg,
-      headerCardTitle,
-      headerPrice,
-    } = card; */
-    console.log(card.headerCardDesc);
     setHeaderTitleImg(card.headerCardTitleImg);
     setHeaderAvailable(card.headerAvalaible);
     setHeaderPrice(card.headerPrice);

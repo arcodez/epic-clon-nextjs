@@ -1,0 +1,15 @@
+.list-of-cards2-section {
+  /* background-color: green; */
+  margin-top: 5em;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.cards2-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 75%;
+  margin: 0 auto;
+  place-items: center;
+  gap: 15px;
+}
