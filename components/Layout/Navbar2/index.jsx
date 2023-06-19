@@ -5,7 +5,7 @@ const Navbar2 = () => {
     <div className="navbar2">
       <div className="navbar2-section-1">
         <div className="navbar2-search-bar">
-          <input type="search-title" placeholder="Buscar en la tienda" />
+          <input type="search" placeholder="Buscar en la tienda" />
         </div>
 
         <ul className="nav2-section1-links">

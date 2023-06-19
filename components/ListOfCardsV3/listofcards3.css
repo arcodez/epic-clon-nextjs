@@ -1,0 +1,16 @@
+.list-of-cards-v3-section {
+  width: 75%;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-of-cards-v3-title {
+  margin-bottom: 16px;
+}
+
+.list-of-cards-v3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}

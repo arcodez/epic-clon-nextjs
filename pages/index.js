@@ -7,6 +7,8 @@ import HeaderSection from "@/components/HeaderSection";
 import GamesOnSaleSection from "@/components/GamesOnSaleSection";
 import ListOfCardsV2 from "@/components/ListOfCardsV2";
 import GamesFreeSection from "@/components/GamesFreeSection";
+import ListOfCardsV3 from "@/components/ListOfCardsV3";
+import ListOfColumns from "@/components/ListOfColumns";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +27,8 @@ export default function Home() {
         <GamesOnSaleSection />
         <ListOfCardsV2 />
         <GamesFreeSection />
+        <ListOfCardsV3 />
+        <ListOfColumns />
       </Layout>
     </>
   );

@@ -20,11 +20,19 @@ import "@/components/ListOfCards/listofcards.css";
 import "@/components/CardV2/cardv2.css";
 import "@/components/ListOfCardsV2/listofcards2.css";
 
+import "@/components/CardV3/cardv3.css";
+import "@/components/ListOfCardsV3/listofcards3.css";
+
 // Games Free Section
 
 import "@/components/GamesFreeSection/gamesfree.css";
 import "@/components/CardFreeGame/cardfree.css";
 import "@/components/ListOfCardsFree/listofcardsfree.css";
+
+// Columns of Cards
+import "@/components/ListOfColumns/listofcolumns.css";
+import "components/ListOfCardsColumns/listofcardscolumns.css";
+import "components/CardVColumn/cardvcolumn.css";
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
