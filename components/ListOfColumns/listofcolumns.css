@@ -1,0 +1,7 @@
+.list-of-columns-section {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 76%;
+  gap: 2px;
+  margin: 0 auto;
+}

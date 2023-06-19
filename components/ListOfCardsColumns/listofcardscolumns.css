@@ -1,0 +1,43 @@
+.list-of-cards-column {
+  /* width: ; */
+  /* background-color: blue; */
+  width: 100%;
+  /* margin: 0 auto; */
+  position: relative;
+}
+.list-column-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-of-cards-column::after {
+  content: " ";
+  height: 100%;
+  width: 1px;
+  color: red;
+  background-color: #2a2a2a;
+  position: absolute;
+  top: 0;
+  right: -0.4%;
+}
+
+.list-of-cards-column-title {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.list-of-cards-column-button {
+  height: 40px;
+  width: 109px;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-right: 14px;
+  margin-top: 6px;
+  border-radius: 5px;
+}
