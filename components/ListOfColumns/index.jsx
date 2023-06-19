@@ -62,7 +62,7 @@ const cardsColumn2 = [
   {
     image:
       "https://cdn1.epicgames.com/offer/b7773a08a6fa41e3a0fbc4c1e51c95a4/EGS_F123StandardEdition_Codemasters_S2_1200x1600-9ee0158a6d9f052deb753af836f9bd8d?h=480&quality=medium&resize=1&w=360",
-    title: "FI 23",
+    title: "FIFA 23",
     price: "69,99 us$",
   },
 ];
@@ -103,9 +103,12 @@ const cardsColumn3 = [
 const ListOfColumns = () => {
   return (
     <div className="list-of-columns-section">
-      <ListOfCardsColumns cards={cardsColumn1} />
-      <ListOfCardsColumns cards={cardsColumn2} />
-      <ListOfCardsColumns cards={cardsColumn3} />
+      <ListOfCardsColumns cards={cardsColumn1} listTitle={"Mas vendidos"} />
+      <ListOfCardsColumns cards={cardsColumn2} listTitle="Mas jugados" />
+      <ListOfCardsColumns
+        cards={cardsColumn3}
+        listTitle="Més deseados que llegaran proximamente"
+      />
     </div>
   );
 };
