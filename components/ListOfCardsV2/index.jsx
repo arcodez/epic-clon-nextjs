@@ -28,11 +28,11 @@ const CardV2Info = [
   },
 ];
 
-const ListOfCardsV2 = () => {
+const ListOfCardsV2 = ({ cards = CardV2Info }) => {
   return (
     <div className="list-of-cards2-section">
       <div className="cards2-container">
-        {CardV2Info.map((card, index) => (
+        {cards.map((card, index) => (
           <CardV2 key={index} {...card} />
         ))}
       </div>

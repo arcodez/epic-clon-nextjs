@@ -56,7 +56,7 @@ const ListOfCards = ({
   return (
     <div className="list-of-cards-section">
       <div className="list-of-cards-title">
-        <h2>{titleOfList}</h2>
+        <p>{titleOfList}</p>
       </div>
 
       <div className="list-of-cards">
