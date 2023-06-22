@@ -9,6 +9,13 @@ import ListOfCardsV2 from "@/components/ListOfCardsV2";
 import GamesFreeSection from "@/components/GamesFreeSection";
 import ListOfCardsV3 from "@/components/ListOfCardsV3";
 import ListOfColumns from "@/components/ListOfColumns";
+import CardV2 from "@/components/CardV2";
+import ListOfCardsV4 from "@/components/ListOfCardsV4";
+import PopularGames from "@/components/PopularGames";
+import GamesRecord from "@/components/GamesRecord";
+import RecentlyUpdate from "@/components/RecentlyUpdate";
+import NowInEpic from "@/components/NowInEpic";
+import LastSection from "@/components/LastSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +36,14 @@ export default function Home() {
         <GamesFreeSection />
         <ListOfCardsV3 />
         <ListOfColumns />
+        <ListOfCardsV4 />
+        <ListOfColumns />
+
+        <PopularGames />
+        <GamesRecord />
+        <RecentlyUpdate />
+        <NowInEpic />
+        <LastSection />
       </Layout>
     </>
   );

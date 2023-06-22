@@ -49,16 +49,19 @@ const cardV1Info = [
   },
 ];
 
-const ListOfCards = () => {
+const ListOfCards = ({
+  cardsv1 = cardV1Info,
+  titleOfList = "Destacados de las ofertas de primavera >",
+}) => {
   return (
     <div className="list-of-cards-section">
       <div className="list-of-cards-title">
-        <h2> Destacados de las ofertas de primavera {">"}</h2>
+        <h2>{titleOfList}</h2>
       </div>
 
       <div className="list-of-cards">
         {" "}
-        {cardV1Info.map((card, index) => (
+        {cardsv1.map((card, index) => (
           <CardV1 key={index} {...card} />
         ))}
       </div>

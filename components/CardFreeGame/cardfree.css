@@ -8,8 +8,8 @@
 
 .card-game-image {
   /* width: 100%; */
-  width: 265px;
-  height: 442px;
+  min-width: 265px;
+  min-height: 442px;
 }
 
 .game-free-image {
@@ -20,6 +20,9 @@
 .card-game-image img {
   width: 100%;
   border-radius: 10px;
+  min-width: 265px;
+  object-fit: cover;
+  min-height: 442px;
 }
 
 .card-game-title,

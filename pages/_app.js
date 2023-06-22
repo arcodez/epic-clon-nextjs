@@ -23,6 +23,9 @@ import "@/components/ListOfCardsV2/listofcards2.css";
 import "@/components/CardV3/cardv3.css";
 import "@/components/ListOfCardsV3/listofcards3.css";
 
+import "@/components/CardV4/cardv4.css";
+import "@/components/ListOfCardsV4/listofcards4.css";
+
 // Games Free Section
 
 import "@/components/GamesFreeSection/gamesfree.css";
@@ -31,8 +34,11 @@ import "@/components/ListOfCardsFree/listofcardsfree.css";
 
 // Columns of Cards
 import "@/components/ListOfColumns/listofcolumns.css";
-import "components/ListOfCardsColumns/listofcardscolumns.css";
-import "components/CardVColumn/cardvcolumn.css";
+import "@/components/ListOfCardsColumns/listofcardscolumns.css";
+import "@/components/CardVColumn/cardvcolumn.css";
+
+//Popular Games
+import "@/components/PopularGames/populargames.css";
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
